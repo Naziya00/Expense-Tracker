@@ -1,0 +1,58 @@
+.filter{
+    box-shadow: 0 0 2px gray;
+    padding: 12px 18px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+.transaction-form label{
+    color: rgba(0, 0, 0, 0.842) !important;
+}
+.transaction-form input{
+    border: 1px solid gray !important;
+    border-bottom: 1px solid rgb(128, 128, 128) !important;
+    box-shadow: none !important;
+}
+.transaction-form input:focus{
+    border: 1px solid gray !important;
+    border-bottom: 1px solid gray !important;
+    box-shadow: none !important;
+}
+.ant-select-selector{
+    border: 1px solid gray !important;
+}
+.ant-select-selector:focus{
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.view-switch{
+border: 1px solid rgba(0, 0, 0, 0.719);
+padding: 3px 8px;
+margin-top: 5px;
+border-radius: 3px;
+}
+
+.anticon svg{
+    font-size: 25px;
+    padding-top: 5px;
+    
+}
+
+.active-icon{
+    color: rgba(0, 0, 0, 0.753);
+    cursor: pointer;
+}
+.inactive-icon{
+    color: rgb(128, 128, 128);
+}
+
+.ant-picker-range{
+    border: 1px solid black !important;
+}
+
+@media screen and (max-width:600px) {
+    .filter{
+        overflow-x: scroll;
+    }
+}
